@@ -7,4 +7,5 @@
 - [云脑任务](/cloudbrain.md)
 - [模型](/model.md)
 - [用户](/user.md)
+- [进阶](/advanced.md)
 - [plugins](/plugin.md)
