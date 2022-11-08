@@ -5,10 +5,14 @@
 
 ## 创建项目
 
-首先你需要注册一个启智社区的账号。\
+首先你需要注册一个启智社区的账号。
+
+> [!tip| label: 加入我们！|icon:fa-solid fa-envelope fa-bounce]
+> 现在就加入启智社区，尽享普惠算力。[立即注册](https://git.openi.org.cn/user/sign_up)
+
 注册成功之后，在启智平台的导航栏，找到头像旁边的 ➕**创建** 图标，点击 **创建项目** 来新建一个项目代码仓。
 <br>
-进入创建项目详情界面，填写 **项目名称**，勾选 **初始化储存库** 和 **平台使用协议选项**，点击创建项目。
+进入创建项目详情界面，填写 **项目名称**，勾选 `初始化储存库` 和 `平台使用协议选项`，点击创建项目。
 
  <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/e78e4e7b744875571658b60d18d54af2b4f4fe7d/quickstart/create.png" width = "800" alt="homepage" align=center />
 
@@ -21,8 +25,8 @@
 
 创建成功之后，来到项目主页。可以看到代码仓里已经默认生成了README描述文件，包含项目名称以及项目描述。
 
-- 点击 **新建文件**，将下面的`示例代码`复制到代码框，并命名为 `train.py` ，点击 **提交变更** 创建代码文件。
-- 你也可以在本地创建 *train.py*，然后点击 **上传文件** 将代码上传至代码仓。
+- 点击 **新建文件**，将下面的`示例代码`复制到代码框，并命名为 `train.py` ，点击 **提交变更** 提交代码文件。
+- 你也可以在本地创建 `train.py`，然后点击 **上传文件** 或者使用 **Git** 将代码提交至代码仓。
 
 
 <!-- tabs:start -->
@@ -139,13 +143,8 @@ if __name__ == '__main__':
 
  <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/repo_code.png" width = "800" alt="repocode" align=center />
 
-#### **提交变更**
-
  <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/fd07c31cf165e92b313e84fdf84a90bab819e926/quickstart/pr.png" width = "800" alt="pr" align=center />
 
-#### **Git**
-
- <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/f2ca3bec69ecb9434716182e848f250396238943/carbon.png" width = "750" alt="pr" align=center />
 
 <!-- tabs:end -->
 
@@ -153,9 +152,9 @@ if __name__ == '__main__':
 ## 关联数据集
 
 - 在项目中，你可以自行 **上传数据集**，也可以使用社区其他用户 **公开的数据集**。
-- 本项目将直接使用官方推荐的 *MNIST-Pytorch* 数据集。
+- 本项目将直接使用官方推荐的 `MNIST-Pytorch` 数据集。
 
-在项目页面，点击 **数据集** -> **关联数据集**，搜索 **MNIST** ，选择 *MNIST_PytorchExample_GPU* 发布的官方推荐版本。
+在项目页面，点击 **数据集** -> **关联数据集**，搜索 **MNIST** ，选择 `MNIST_PytorchExample_GPU` 发布的官方推荐版本。
 
 <!-- tabs:start -->
 
@@ -210,4 +209,28 @@ if __name__ == '__main__':
 <!-- tabs:end -->
 
 ## 训练完成
+
+当训练任务的状态由 **WAITING** 变为 **SUCCEEDED**，任务训练成功。点击 `任务名称` 查看详情。
+
+<!-- tabs:start -->
+
+#### **配置详情**
+
+你可以查看任务具体配置，包括镜像，数据集，资源规格，运行时间以及脚本文件。
+
+<img src="_media/quickstart/succeeddetail.png" width = "800" alt="traincreate" align=middle />
+
+#### **日志查看**
+
+这里是脚本文件中的所有输出打印，也叫做你的 `任务日志`。你可以自行在脚本文件中编辑你输出的信息。`示例脚本` 中打印了训练中每一个 **batch** 的损失，以及模型最终的准确率。
+
+<img src="_media/quickstart/succeedlog.png" width = "800" alt="traindetail" align=middle />
+
+#### **文件下载**
+
+在这里你可以下载在脚本中输出的所有文件以及日志文本。`示例脚本` 里输出了最终的PyTorch模型文件。
+
+<img src="_media/quickstart/succeedfile.png" width = "800" alt="traindetail" align=middle />
+
+<!-- tabs:end -->
 
