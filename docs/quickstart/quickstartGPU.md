@@ -7,26 +7,24 @@
 
 首先你需要注册一个启智社区的账号。
 
-> [!tip| label: 加入我们！|icon:fa-solid fa-envelope fa-bounce]
+> [!tip|label: 加入我们！|icon:fa-solid fa-user fa-bounce]
 > 现在就加入启智社区，尽享普惠算力。[立即注册](https://git.openi.org.cn/user/sign_up)
 
-注册成功之后，在启智平台的导航栏，找到头像旁边的 ➕**创建** 图标，点击 **创建项目** 来新建一个项目代码仓。
-<br>
-进入创建项目详情界面，填写 **项目名称**，勾选 `初始化储存库` 和 `平台使用协议选项`，点击创建项目。
+- 注册成功之后，请点击 [新建项目](https://git.openi.org.cn/repo/create) 创建新项目。
+
+- 进入创建项目详情界面
+    - 填写 `项目名称`
+    - 勾选 `初始化储存库` 
+    - 勾选 `承诺遵守平台使用协议`
+    - 点击 `创建项目`
 
  <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/e78e4e7b744875571658b60d18d54af2b4f4fe7d/quickstart/create.png" width = "800" alt="homepage" align=center />
 
 ## 代码提交
 
-> [!tip|label:提示|icon:fa-solid fa-bell fa-beat]
-> - 你将会在这一步提交或在线创建Python训练代码文件。如果你之前有 **Git** 的使用经验，可以直接克隆代码仓，进行 **Git** 操作。
-> - 如果你的 `模型定义` 和 `训练脚本` 在不同的代码文件里，请务必将他们全部提交。
-> - `数据集` 将储存到别的位置，请勿将 `数据集` 上传到代码仓。
+创建成功之后，来到项目主页。可以看到代码仓里已经默认生成了 `README.md` 描述文件，包含项目名称以及项目描述。
 
-创建成功之后，来到项目主页。可以看到代码仓里已经默认生成了README描述文件，包含项目名称以及项目描述。
-
-- 点击 **新建文件**，将下面的`示例代码`复制到代码框，并命名为 `train.py` ，点击 **提交变更** 提交代码文件。
-- 你也可以在本地创建 `train.py`，然后点击 **上传文件** 或者使用 **Git** 将代码提交至代码仓。
+- 点击蓝色的 `新建文件` 按钮，将下面的`示例代码`复制到代码框，并命名为 `train.py` ，点击 `提交变更` 提交代码文件。
 
 
 <!-- tabs:start -->
@@ -139,7 +137,7 @@ if __name__ == '__main__':
         torch.save(model, '/model/pytroch.pth')
 ```
 
-#### **在线创建**
+#### **提交变更**
 
  <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/repo_code.png" width = "800" alt="repocode" align=center />
 
@@ -151,10 +149,9 @@ if __name__ == '__main__':
 
 ## 关联数据集
 
-- 在项目中，你可以自行 **上传数据集**，也可以使用社区其他用户 **公开的数据集**。
-- 本项目将直接使用官方推荐的 `MNIST-Pytorch` 数据集。
+> 本项目将直接使用官方推荐的 `MNIST-Pytorch` 数据集。
 
-在项目页面，点击 **数据集** -> **关联数据集**，搜索 **MNIST** ，选择 `MNIST_PytorchExample_GPU` 发布的官方推荐版本。
+在项目页面中，依次点击 **数据集**->**关联数据集**->**关联数据集**, 搜索 `MNIST` ，选择 `MNIST_PytorchExample_GPU` 发布的官方推荐版本。
 
 <!-- tabs:start -->
 
@@ -175,14 +172,7 @@ if __name__ == '__main__':
 
 接下来创建云脑训练任务，在项目里找到 **云脑** -> **训练任务** -> **新建训练任务**。
 
-> [!note|label:训练任务参数填写|icon:fa-solid fa-list fa-bounce]
-> - **算力集群** 启智集群
-> - **计算资源** CPU/GPU
-> - **任务名称** 可自行定义
-> - **镜像** *dockerhub.pcl.ac.cn:5000/user-images/openi:cuda111_python37_pytorch191*
-> - **启动文件** *train.py*
-> - **数据集** *MnistDataset_torch.zip*
-> - **资源规格** 默认选择 *GPU:1A100, CPU:4,内存:32GB,共享内存16GB*
+
 
 <!-- tabs:start -->
 
@@ -191,6 +181,15 @@ if __name__ == '__main__':
 <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train.png" width = "800" alt="traincreate" align=middle />
 
 #### **参数配置**
+
+> [!note|label:填写以下参数|icon:fa-solid fa-list fa-bounce]
+> - **算力集群** 启智集群
+> - **计算资源** CPU/GPU
+> - **任务名称** 可自行定义
+> - **镜像** *cuda111_python37_pytorch191* 或直接复制 *dockerhub.pcl.ac.cn:5000/user-images/openi:cuda111_python37_pytorch191*
+> - **启动文件** *train.py*
+> - **数据集** *MnistDataset_torch.zip*
+> - **资源规格** 默认选择 *GPU:1A100, CPU:4,内存:32GB,共享内存16GB*
 
 <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train_detail.png" width = "800" alt="traindetail" align=middle />
 
@@ -230,8 +229,9 @@ if __name__ == '__main__':
 
 在这里你可以下载在脚本中输出的所有文件以及日志文本。`示例脚本` 里输出了最终的PyTorch模型文件。
 
-<img src="_media/quickstart/succeedfile.png" width = "800" alt="traindetail" align=middle />
+<img src="_media/quickstart/succeedfile.png" width = "800" alt="traindetail" align=middle />
 
 <!-- tabs:end -->
 
-恭喜你！你已经完成了一个简单的GPU训练任务。点击右侧的下一卷查看更多功能。
+> [!tip|label:新手教程完成|icon:fa-sharpe fa-solid fa-check fa-beat]
+> 🎉 恭喜你！你已经完成了一个简单的GPU训练任务。点击右侧的下一卷查看更多功能。

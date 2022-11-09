@@ -1,5 +1,7 @@
 ## 创建
 
+- 你也可以在启智平台的导航栏右侧，找到 ➕ 图标，点击下拉菜单中的 **创建项目** 来新建一个项目。
+
 ## 代码仓
 
 > [!note|label:项目首页详情|icon:fa-sharp fa-solid fa-code-branch fa-bounce]

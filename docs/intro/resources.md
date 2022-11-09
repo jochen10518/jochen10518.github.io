@@ -1,6 +1,8 @@
 
 #  资源说明
 
+> 详细信息请参照[启智AI协作平台资源说明](https://git.openi.org.cn/resource_desc)。
+
 <!-- tabs:start -->
 
 #### **🐶启智集群**
