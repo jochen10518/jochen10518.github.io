@@ -9,12 +9,15 @@
     - [资源说明](intro/resources.md)
 
 - 项目
-    - [代码仓](repo/repo.md)
-    - [Git](repo/git.md)
+    - [创建项目](repo/create.md)
+    - [项目设置](repo/setting.md)
+    - [代码提交](repo/code.md)
+    - [个人中心](repo/center.md)
+
 - 数据集
-    - [数据上传](dataset/upload.md)
-    - [数据广场](dataset/hub.md)
-    - [数据储存](dataset/store.md)
+    - [上传数据](dataset/upload.md)
+    - [关联数据](dataset/link.md)
+    - [使用数据](dataset/usage.md)
 
 - 云脑
     - [调试](cloudbrain/debug.md)
@@ -29,11 +32,11 @@
     - [模型体验](/model/space.md)
 
 - 用户
-    - [个人中心](/user/user.md)
-    - [团队协作](/user/group.md)
-
-- 进阶
-    - [多数据集](/advanced/multidata.md)
+    - [个人设置](/user/user.md)
+    - [组织](/user/group.md)
 
 
 - [文档模版测试](/plugin.md)
+
+
+- [hierarchy](/structures.md)

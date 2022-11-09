@@ -1,4 +1,14 @@
-## 安装Git
+## 在线提交
+
+
+
+## 上传提交
+
+
+
+## Git提交
+
+### 安装Git
 
 <!-- tabs:start -->
 
@@ -6,7 +16,7 @@
 
 Mac系统通常预安装了 **Git** 命令。打开终端 **Terminal**，输入 `git` 指令，如有以下输出，则系统已安装 **Git**。
            
-<img src="_media/repo/gitmac.png" width = "800" alt="homepage" align=center />
+<img src="_media/repo/gitmac.png" width = "400" alt="homepage" align=center />
 
 若系统未安装 Git，请参照[Git官方地址](https://git-scm.com/download/mac)下载安装。
 
@@ -20,21 +30,21 @@ Mac系统通常预安装了 **Git** 命令。打开终端 **Terminal**，输入 
 
 #### **Git安装**
 
-<img src="_media/repo/gitinstall.png" width = "800" alt="homepage" align=center />
+<img src="_media/repo/gitinstall.png" width = "400" alt="homepage" align=center />
 
 #### **Git Bash**
 
-<img src="_media/repo/gitbash.png" width = "800" alt="homepage" align=center />
+<img src="_media/repo/gitbash.png" width = "400" alt="homepage" align=center />
 
 #### **Powershell**
 
-<img src="_media/repo/windowsterminal.png" width = "800" alt="homepage" align=center />
+<img src="_media/repo/windowsterminal.png" width = "400" alt="homepage" align=center />
 
 <!-- tabs:end -->
 
 <!-- tabs:end -->
 
-## Git提交代码
+### 克隆仓库
 
 使用命令行（*Mac Terminal/iTerm2* 或 *Windows Git Bash/Powershell*） **Git** 克隆/提交代码需要设置权限。你可以在代码仓文件列表的右上方找到 **项目链接**。通常有两种方式克隆代码仓，`https` 和 `ssh`。
 
@@ -66,6 +76,6 @@ $ git config --global credential.helper store
 
 具体步骤请参考[Github SSH Gnerating](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
-
-
 <!-- tabs:end -->
+
+### 代码提交
