@@ -24,4 +24,13 @@
 > - [帮助启智社区](https://git.openi.org.cn/OpenI/aiforge/issues) 提出你对`启智AI协作平台` 的建议或者问题，我们很乐意跟你一起进步
 > - [改进本文档](https://git.openi.org.cn/chenzh/opendoc/issues) 帮助改进或补充本文档内容，当然你也可以在文档任何地方点击右上角的 **意见反馈**
 
-## Pull Request
+## 合并请求
+
+- 合并请求也叫 `Pull Request`，简称 `PR`，你可以通过 `PR` 为其他用户的项目做出代码贡献，反之亦然
+- 发起`PR`可将 **指定分支的代码** 合并到 **主分支**，或者将 **派生代码仓的分支** 合并到 **主分支**
+
+<img src="_media/repo/prcreate.png" width = "800" alt="homepage" align=center />
+
+<img src="_media/repo/propen.png" width = "800" alt="homepage" align=center />
+
+<img src="_media/repo/prclose.png" width = "800" alt="homepage" align=center />

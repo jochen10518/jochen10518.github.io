@@ -232,5 +232,5 @@ if __name__ == '__main__':
 
 <!-- tabs:end -->
 
-> [!tip|label:新手教程完成|icon:fa-sharpe fa-solid fa-check fa-beat]
+> [!tip|label:新手教程完成|icon:fa-solid fa-thumbs-up fa-beat]
 > 🎉 恭喜你！你已经完成了一个简单的GPU训练任务。点击右侧的下一卷查看更多功能。
