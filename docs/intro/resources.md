@@ -1,7 +1,9 @@
 
 #  资源说明
 
-> 详细信息请参照[启智AI协作平台资源说明](https://git.openi.org.cn/resource_desc)。
+> 详细信息请参照[启智AI协作平台资源说明](https://git.openi.org.cn/resource_desc)
+
+?> 点击下列任务类型即可跳转相应示例代码仓
 
 <!-- tabs:start -->
 

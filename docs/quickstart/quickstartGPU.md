@@ -10,15 +10,14 @@
 > [!tip|label: 加入我们！|icon:fa-solid fa-user fa-bounce]
 > 现在就加入启智社区，尽享普惠算力。[立即注册](https://git.openi.org.cn/user/sign_up)
 
-- 注册成功之后，请点击 [新建项目](https://git.openi.org.cn/repo/create) 创建新项目。
-
+- 注册成功之后，请 [点击这里](https://git.openi.org.cn/repo/create) 创建新项目。
 - 进入创建项目详情界面
     - 填写 `项目名称`
     - 勾选 `初始化储存库` 
     - 勾选 `承诺遵守平台使用协议`
     - 点击 `创建项目`
 
- <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/e78e4e7b744875571658b60d18d54af2b4f4fe7d/quickstart/create.png" width = "800" alt="homepage" align=center />
+ <img src="_media/quickstart/repo_create.png" width = "800" alt="homepage" align=center />
 
 ## 代码提交
 
@@ -31,7 +30,7 @@
 
 #### **代码仓**
 
- <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/repo_homne.png" width = "800" alt="repohome" align=center />
+ <img src="_media/quickstart/repo_home.png" width = "800" alt="homepage" align=center />
 
 #### **示例代码**
 
@@ -139,10 +138,9 @@ if __name__ == '__main__':
 
 #### **提交变更**
 
- <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/repo_code.png" width = "800" alt="repocode" align=center />
+ <img src="_media/quickstart/repo_code.png" width = "800" alt="homepage" align=center />
 
- <img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/fd07c31cf165e92b313e84fdf84a90bab819e926/quickstart/pr.png" width = "800" alt="pr" align=center />
-
+ <img src="_media/quickstart/repo_pr.png" width = "800" alt="homepage" align=center />
 
 <!-- tabs:end -->
 
@@ -157,15 +155,16 @@ if __name__ == '__main__':
 
 #### **创建关联**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/dataset.png" width = "800" alt="datacreate" align=center />
+ <img src="_media/quickstart/dataset.png" width = "800" alt="homepage" align=center />
 
 #### **搜索公开数据集**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/dataset_search.png" width = "800" alt="datasearch" align=center />
+ <img src="_media/quickstart/dataset_search.png" width = "800" alt="homepage" align=center />
 
 #### **关联成功**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/dataset_finish.png" width = "800" alt="datafinish" align=middle />
+ <img src="_media/quickstart/dataset_finish.png" width = "800" alt="homepage" align=center />
+
 <!-- tabs:end -->
 
 ## 创建训练任务
@@ -178,7 +177,7 @@ if __name__ == '__main__':
 
 #### **创建训练**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train.png" width = "800" alt="traincreate" align=middle />
+ <img src="_media/quickstart/train.png" width = "800" alt="homepage" align=center />
 
 #### **参数配置**
 
@@ -191,19 +190,19 @@ if __name__ == '__main__':
 > - **数据集** *MnistDataset_torch.zip*
 > - **资源规格** 默认选择 *GPU:1A100, CPU:4,内存:32GB,共享内存16GB*
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train_detail.png" width = "800" alt="traindetail" align=middle />
+ <img src="_media/quickstart/train_detail.png" width = "800" alt="homepage" align=center />
 
 #### **镜像选择**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train_mirror.png" width = "800" alt="trainmirror" align=middle />
+ <img src="_media/quickstart/train_mirror.png" width = "800" alt="homepage" align=center />
 
 #### **数据集选择**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train_data.png" width = "800" alt="traindata" align=middle />
+ <img src="_media/quickstart/train_data.png" width = "800" alt="homepage" align=center />
 
 #### **创建成功**
 
-<img src="https://git.openi.org.cn/chenzh/opendocmedia/raw/commit/c4a01eec3693045afbc2623dd87645f81c531942/quickstart/train_wait.png" width = "800" alt="trainwait" align=middle />
+ <img src="_media/quickstart/train_wait.png" width = "800" alt="homepage" align=center />
 
 <!-- tabs:end -->
 
@@ -213,7 +212,7 @@ if __name__ == '__main__':
 
 <!-- tabs:start -->
 
-#### **配置详情**
+#### **任务详情**
 
 你可以查看任务具体配置，包括镜像，数据集，资源规格，运行时间以及脚本文件。
 
@@ -229,7 +228,7 @@ if __name__ == '__main__':
 
 在这里你可以下载在脚本中输出的所有文件以及日志文本。`示例脚本` 里输出了最终的PyTorch模型文件。
 
-<img src="_media/quickstart/succeedfile.png" width = "800" alt="traindetail" align=middle />
+<img src="_media/quickstart/succeedfile.png" width = "800" alt="traindetail" align=middle />
 
 <!-- tabs:end -->
 

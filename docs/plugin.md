@@ -83,8 +83,7 @@ Bonjour!
     ├── center
     └── group
 ```
-* *made with https://tree.nathanfriend.io/*
-
+*made with https://tree.nathanfriend.io/*
 
 
 
@@ -92,3 +91,57 @@ Bonjour!
 
 
 ![](/_media/giftest.gif "-gifcontrol-mode=click;")
+
+
+<!-- select:start -->
+<!-- select-menu-labels: 操作系统 -->
+
+#### --macOS--
+
+Common content can go here above the first heading in a section and be rendered for all selections!
+
+#### --Linux--
+
+Linux instructions here
+
+<!-- select:end -->
+
+
+<!-- select:start -->
+<!-- select-menu-labels: Operating System,Installation Method -->
+
+### --macOS,Git--
+
+macOS + Git
+
+### --macOS,Homebrew--
+
+macOS + Homebrew
+
+### --Linux,Git--
+
+Linux + Git
+
+<!-- select:end -->
+
+
+<!-- select:start -->
+<!-- select-menu-labels: Operating System,Installation Method -->
+
+### --macOS,Git--
+
+macOS + Git
+
+### --macOS,Homebrew--
+
+macOS + Homebrew
+
+### --Linux,Git--
+
+Linux + Git
+
+### --Docsify Select Default--
+
+No selection for this combination. Sorry!
+
+<!-- select:end -->

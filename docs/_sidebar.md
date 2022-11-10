@@ -10,14 +10,14 @@
 
 - 项目
     - [创建项目](repo/create.md)
-    - [项目设置](repo/setting.md)
     - [代码提交](repo/code.md)
+    - [任务与合并请求](repo/pr.md)
     - [个人中心](repo/center.md)
 
 - 数据集
     - [上传数据](dataset/upload.md)
     - [关联数据](dataset/link.md)
-    - [使用数据](dataset/usage.md)
+    - [数据使用示例](dataset/usage.md)
 
 - 云脑
     - [调试](cloudbrain/debug.md)
