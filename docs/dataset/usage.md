@@ -47,8 +47,8 @@
 - 打开`Terminal`，输入下列`cd`命令查看数据集是否在环境中
 
 ```shell
-$ cd /dataset/imagenet/train/n01440764
-$ ls
+# cd /dataset/imagenet/train/n01440764
+# ls
 n01440764_10026.JPEG  n01440764_12111.JPEG  n01440764_14524.JPEG  
 n01440764_8240.JPEG   n01440764_10027.JPEG  n01440764_12129.JPEG  
 ...
@@ -58,7 +58,7 @@ n01440764_8240.JPEG   n01440764_10027.JPEG  n01440764_12129.JPEG
 - 你可以使用 `pip show 库名` 或 `pip list` 来查看你的需要的库是否已安装
 
 ```shell
-$ pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 - 新建 `Notebook`，复制下列代码并运行，若成功输出维度与图片，则读取数据成功

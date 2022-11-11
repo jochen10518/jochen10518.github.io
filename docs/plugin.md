@@ -145,3 +145,55 @@ Linux + Git
 No selection for this combination. Sorry!
 
 <!-- select:end -->
+
+
+
+## label generating
+
+```python
+
+#tar -zcvf 
+
+import matplotlib.pyplot as plt # plt 用于显示图片
+import matplotlib.image as mpimg # mpimg 用于读取图片
+import numpy as np
+import os
+
+idx_lookup = { idx:label_idx for idx,label_idx in enumerate(os.listdir('/dataset/imagenet/train/'))}
+
+list_of_label = dict()
+idx = 0
+
+def imagenet_preview(list_of_label, idx, idx_lookup):
+    
+    label_idx = list_of_label[idx]
+
+    train = os.listdir('/dataset/imagenet/train/' + label_idx)
+    val = os.listdir('/dataset/imagenet/val/' + label_idx)
+
+    for i,data_idx in enumerate(train):
+        if i < 3:
+            sample = mpimg.imread('/dataset/imagenet/train/' + label_idx + '/' + data_idx)
+            #print(sample.shape)
+
+            plt.imshow(sample) # 显示图片
+            plt.axis('off') # 不显示坐标轴
+            plt.show()
+
+    print(label_idx,idx)
+    label = input('enter label value:')
+
+    list_of_label[idx] = [label_idx,label]
+
+    idx += 1
+```
+
+<!-- tabs:start -->
+
+#### **GPU**
+
+
+#### **NPU**
+
+
+<!-- tabs:end -->
