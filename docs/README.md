@@ -15,3 +15,4 @@
 
 > [!tip|label: 加入我们！|icon:fa-solid fa-user fa-bounce]
 > 现在就加入启智社区，尽享普惠算力。[立即注册](https://git.openi.org.cn/user/sign_up)
+
